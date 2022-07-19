@@ -12,20 +12,21 @@ const Navbar = () => {
                 </div>
                 
                 <div className="menu">
-                    <select name="select" id="select" className='select'>
-                        <option value="">Home page</option>
+                    {/* <select name="select" id="select" className='select'>
+                        <option value="" className='option'>Home page </option>
                         <option value="">Home page 2</option>
                         <option value="">Home page 3</option>
                         <option value="">Home page 4</option>
-                    </select>
-                    <NavLink  to="/chefs">Chefs</NavLink>
-                    <NavLink to='/Shop'>Shop</NavLink>
+                    </select> */}
+                    <NavLink  to="/Chefs" className="nav-link">Chefs</NavLink>
+                    <NavLink to='/Shop' className="nav-link">Shop</NavLink>
+                    <NavLink to='/' className="nav-link">Home</NavLink>
                     <select className='select2'>
                         <option>Blog</option>
                         <option>Blog page</option>
                         <option>Blog details</option>
                     </select>
-                    <button>Book Table</button>
+                    <button className='button-book'>Book Table</button>
                 </div>
             </div>
             <Routes>
