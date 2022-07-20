@@ -20,7 +20,18 @@ const Home = () => {
                         <p>
                         You deserve a break today.Wake up with the King. The flavors of nature Just wow!
                         </p>
+                        <div className='view-div'>
                         <Link to='/' className='view' >View our menu</Link>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide2'>
+                <h1>A life full of celebration.</h1>
+                <p>There are some things money can't buy. For everything else, there's MasterCard. You deserve <br/> a break today. Wake up with the King. The flavors of nature Just wow!</p>
+                <div className='view-div'>
+                        <Link to='/' className='view' >View our menu</Link>
+                        </div>
                     </div>
                 </SwiperSlide>
             </Swiper>
