@@ -60,3 +60,19 @@
   font-weight: 800;
   font-size: 17px;
 }
+.slide1 h1{
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+.slide1 p{
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.slide1 .view{
+  margin-top: 20px;
+  border: 1px solid #f8bf64;
+  padding: 10px 40px;
+}
