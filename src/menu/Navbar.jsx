@@ -3,10 +3,7 @@ import { Link, NavLink, Route, Routes } from 'react-router-dom';
 import Chefs from './Chefs';
 import Shop from './Shop';
 import Logo from './logo.png';
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import { Navigation } from "swiper";
+import Home from './Home';
 const Navbar = () => {
     return (
         <div>
@@ -24,7 +21,7 @@ const Navbar = () => {
                     </select> */}
                     <NavLink to="/Chefs" className="nav-link">Chefs</NavLink>
                     <NavLink to='/Shop' className="nav-link">Shop</NavLink>
-                    <NavLink to='/' className="nav-link">Home</NavLink>
+                    <NavLink to='/Home' className="nav-link">Home</NavLink>
                     <select className='select2'>
                         <option>Blog</option>
                         <option>Blog page</option>
@@ -36,24 +33,9 @@ const Navbar = () => {
             <Routes>
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
+                <Route path='/home' element={<Home/>}/>
             </Routes>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                <SwiperSlide>
-                    <div className='slide1'>
-                        <h1>
-                            Hot eats, cold treats.
-                        </h1>
-                        <p>
-                            There are some things money can't buy. For everything else, there's Mastercards
-                           
-                        </p>
-                        <p>
-                        You deserve a break today.Wake up with the King. The flavors of nature Just wow!
-                        </p>
-                        <Link to='/' className='view' >View our menu</Link>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
+            
         </div>
     );
 }
