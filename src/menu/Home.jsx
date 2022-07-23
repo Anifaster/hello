@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
-import { Link } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
+import Shop from './Shop';
 const Home = () => {
     return ( 
         <div>
@@ -21,7 +22,7 @@ const Home = () => {
                         You deserve a break today.Wake up with the King. The flavors of nature Just wow!
                         </p>
                         <div className='view-div'>
-                        <Link to='/' className='view' >View our menu</Link>
+                        <Link to='/shop' className='view' >View our menu</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -30,11 +31,14 @@ const Home = () => {
                 <h1>A life full of celebration.</h1>
                 <p>There are some things money can't buy. For everything else, there's MasterCard. You deserve <br/> a break today. Wake up with the King. The flavors of nature Just wow!</p>
                 <div className='view-div'>
-                        <Link to='/' className='view' >View our menu</Link>
+                        <Link to='/shop' className='view' >View our menu</Link>
                         </div>
                     </div>
                 </SwiperSlide>
             </Swiper>
+            <Routes>
+                <Route path='/shop' element={<Shop/>} />
+            </Routes>
         </div>
      );
 }

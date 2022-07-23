@@ -135,7 +135,7 @@
   box-shadow: 0 0 10px #222;
   text-transform: capitalize;
   font-weight: 700;
-
+  margin-top: 20px;
 }
 
 .lala button:hover{
