@@ -3,6 +3,10 @@ const Shop = () => {
     return ( 
         <div className='wewe'>
             <h1 className='menu-template'>Here is our food</h1>
+            <div className='imgbrd'>
+                <h1>shop</h1>
+                <h2>Home / shop</h2>
+            </div>
             <div className='all'>
             <div className='lala'>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR0c3T4Ae4K23QTHq2YavjZuW5pbGhrkKKLA&usqp=CAU" alt="" />
