@@ -22,12 +22,6 @@ const Navbar = () => {
                     <NavLink to="/Chefs" className="nav-link">Chefs</NavLink>
                     <NavLink to='/Shop' className="nav-link">Shop</NavLink>
                     <NavLink to='/Home' className="nav-link">Home</NavLink>
-                    <select className='select2'>
-                        <option>Blog</option>
-                        <option>Blog page</option>
-                        <option>Blog details</option>
-                    </select>
-                    <button className='button-book'>Book Table</button>
                 </div>
             </div>
             <Routes>

@@ -37,7 +37,7 @@
 }
 .menu{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 800px;
   color: white;
@@ -46,9 +46,9 @@
   color: red;
   font-weight: 800;
   border-bottom: 2px solid blue;
-  width: 80px;
 }
 .menu .nav-link{
+  font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-weight: 800;
   color: white;
@@ -82,14 +82,7 @@
 .view-div{
   margin-top: 60px;
 }
-.button-book{
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: 700;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  border: 1px solid #f8bf64;
-  border-radius: 2px;
-}
+
 .slide2 h1{
   font-size: 70px;
   font-weight: 700;
@@ -149,4 +142,10 @@
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 20px;
+}
+.wewe .menu-template{
+  text-align: center;
+  margin: 30px;
+  font-size: 50px;
+  color:grey;
 }
