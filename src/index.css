@@ -150,3 +150,33 @@
   row-gap: 20px;
   column-gap: 20px;
 }
+
+.btn-menu{
+  font-size: 32px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+}
+
+.btn-menu:hover{
+  color: #222;
+  font-size: 29px;
+  transition: 0.6s;
+}
+.chefs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chefs{
+  display: flex;
+  flex-wrap: wrap !important;
+}
+
+.chefs img{
+  border-radius: 45px;
+  height: auto;
+}
