@@ -5,6 +5,10 @@ const Chefs = () => {
     return ( 
         <div>
             <NavLink className='btn-menu' to='/shop'>Go to menu</NavLink>
+            <div className='imgbrd'>
+                <h1>Our Chefs</h1>
+                <h2>Home / Our Chefs</h2>
+            </div>
             <div className="chefs">
                 <div className="chef">
                     <img src="	https://jthemes.net/themes/html/fodige/assets/img/chefs/ch1.jpg" alt="" />

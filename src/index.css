@@ -3,7 +3,7 @@
   padding: 5px 20px;
   box-sizing: border-box;
   text-decoration: none;
-  background-color: silver;
+  background-color: rgb(255, 252, 252);
 }
 .navbar{
   display: flex;
@@ -18,7 +18,7 @@
   font-size: 15px;
   font-weight: 800;
   width: 170px;
-  color: white;
+  color: #131a33;
 }
 .select2{
   height: 50px;
@@ -26,7 +26,7 @@
   font-size: 15px;
   font-weight: 800;
   width: 159px;
-  color: white;
+  color: #131a33;
 }
 .logo{
   display: flex;
@@ -40,7 +40,7 @@
   justify-content: space-around;
   align-items: center;
   width: 800px;
-  color: white;
+  color: #131a33;
 }
 .menu .active{
   color: red;
@@ -51,17 +51,17 @@
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-weight: 800;
-  color: white;
+  color: #131a33;
 }
 
 .slide1 h1{
   font-size: 70px;
   font-weight: 700;
-  color: white;
+  color: #131a33;
 }
 .slide1 p{
   font-size: 25px;
-  color: white;
+  color: #131a33;
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
@@ -86,7 +86,7 @@
 .slide2 h1{
   font-size: 70px;
   font-weight: 700;
-  color: white;
+  color: #131a33;
  
 }
 .slide2{
@@ -96,7 +96,7 @@
 }
 .slide2 p{
   font-size: 20px;
-  color: white;
+  color: #131a33;
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   margin-top: 30px;
@@ -104,7 +104,7 @@
 
 .lala{
   width: 298px;
-  background: silver;
+  color: #131a33;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -152,7 +152,7 @@
 
 .btn-menu{
   font-size: 32px;
-  color: aliceblue;
+  color: #fea400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,7 +167,7 @@
 
 .chefs{
   display: flex;
-  flex-wrap: wrap !important;
+  flex-wrap: wrap;
   column-gap: 220px;
   row-gap: 40px;
 }
@@ -208,7 +208,7 @@
 }
 
 .chef{
-  box-shadow: 0 0 10px #222;
+  box-shadow: 0 0 10px #22222220;
   border-radius: 14px;
 }
 
@@ -217,4 +217,23 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: 29px;
+}
+
+.imgbrd{
+  background-image: url(./menu/brd1.jpg);
+  background-size:cover;
+  padding: 125px 0px;
+}
+
+.imgbrd h1{
+  background: none;
+  color: #131a33;
+    font-size: 120px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.imgbrd h2{
+  background: none;
+  font-size: 30px;
+  color: #131a33;
 }
