@@ -117,14 +117,17 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 .view{
-  margin-top: 20px;
-  border: 1px solid #f8bf64;
-  padding: 18px 40px;
-  color: White;
-  font-size: 20px;
-  font-weight: 800;
-  background-color: #f8bf64;
-  border-radius: 3px;
+  margin-left: 20px;
+  padding: 12px 60px;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: 0.5s;
+  border: 1px solid rgba(34, 34, 34, 0.462);
+  box-shadow: 0 0 10px #222;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 17px !important;
+  display: -webkit-inline-box;
 }
 .slide1{
   margin-top: 100px;
@@ -183,7 +186,7 @@ body {
   margin-top: 20px;
 }
 
-.lala button:hover{
+.view:hover{
   background: black;
   color: white;
   transition: 0.5s;
@@ -304,3 +307,6 @@ margin-left: 29px;
   font-size: 26px;
 }
 
+.buy h1{
+  color: rebeccapurple;
+}

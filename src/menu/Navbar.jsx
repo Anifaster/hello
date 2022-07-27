@@ -4,6 +4,7 @@ import Chefs from './Chefs';
 import Shop from './Shop';
 import Logo from './logo.png';
 import Home from './Home';
+import Buy from '../Buy';
 const Navbar = () => {
     return (
         <div>
@@ -19,15 +20,16 @@ const Navbar = () => {
                         <option value="">Home page 3</option>
                         <option value="">Home page 4</option>
                     </select> */}
+                    <NavLink to='/Home' className="nav-link">Home</NavLink>
                     <NavLink to="/Chefs" className="nav-link">Chefs</NavLink>
                     <NavLink to='/Shop' className="nav-link">Shop</NavLink>
-                    <NavLink to='/Home' className="nav-link">Home</NavLink>
                 </div>
             </div>
             <Routes>
+                <Route path='/home' element={<Home/>}/>
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
-                <Route path='/home' element={<Home/>}/>
+                <Route path='/buy' element={<Buy/>}/>
             </Routes>
             
         </div>

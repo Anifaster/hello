@@ -7,7 +7,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Shop from './Shop';
 const Home = () => {
     return ( 
-        <div>
+        <div className='for'>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide>
                     <div className='slide1'>

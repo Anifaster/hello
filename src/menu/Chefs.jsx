@@ -62,7 +62,7 @@ const Chefs = () => {
                 </div>
                 <div className="chef">
                     <img src="https://jthemes.net/themes/html/fodige/assets/img/chefs/ch5.jpg" alt="" />
-                    <h1>jeny</h1>
+                    <h1>jennie</h1>
                     <h2>Exclusive chef</h2>
                     <p>
                         <NavLink to=''>"Burgers"</NavLink>
