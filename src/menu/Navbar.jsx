@@ -5,6 +5,7 @@ import Shop from './Shop';
 import Logo from './logo.png';
 import Home from './Home';
 import Buy from '../Buy';
+import Table from './Table';
 const Navbar = () => {
     return (
         <div>
@@ -23,6 +24,7 @@ const Navbar = () => {
                     <NavLink to='/Home' className="nav-link">Home</NavLink>
                     <NavLink to="/Chefs" className="nav-link">Chefs</NavLink>
                     <NavLink to='/Shop' className="nav-link">Shop</NavLink>
+                    <NavLink to='/Table' className="table">Book a Table</NavLink>
                 </div>
             </div>
             <Routes>
@@ -30,6 +32,7 @@ const Navbar = () => {
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
                 <Route path='/buy' element={<Buy/>}/>
+                <Route path='/table' element={<Table/>}/>
             </Routes>
             
         </div>
