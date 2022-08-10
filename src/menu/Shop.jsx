@@ -14,7 +14,9 @@ const Shop = () => {
             phone: phone,
             size: size
         })
-
+        .then((res) => {
+            setClick("block")
+        })
     }
     const buyMenu = () =>{
         setClick("blockOn")
