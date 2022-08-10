@@ -35,6 +35,7 @@ const Shop = () => {
                 <input type="text" placeholder='write your phone number' />
                 </div>
                         <button onClick={() => setClick("block")}>Close</button>
+                        <button>send</button>
                     </div>
                 </div>
             <h1 className='menu-template'>Here is our food</h1>
