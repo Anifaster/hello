@@ -1,9 +1,7 @@
 *{
    margin: 0; 
-   /* padding: 5px 20px;  */
    box-sizing: border-box;
   text-decoration: none;
-  /* background-color: rgb(255, 252, 252); */
 } 
 body {
   margin: 0;
@@ -149,6 +147,7 @@ body {
   color: #131a33;
 }
 
+
 .slide1 h1{
   font-size: 70px;
   font-weight: 700;
@@ -279,7 +278,6 @@ body {
 .chefs{
   display: flex;
   flex-wrap: wrap;
-  /* column-gap: 220px; */
   align-items: center;
   justify-content: center;
   row-gap: 40px;
@@ -318,7 +316,6 @@ body {
 }
 
 .chef{
-  /* box-shadow: 0 0 10px #22222220; */
   border-radius: 14px;
 }
 
@@ -536,7 +533,6 @@ h3{
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  /* margin-top: 70px; */
   margin-left: 178px;
 }
 
