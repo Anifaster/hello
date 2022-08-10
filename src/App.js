@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Buy from './Buy';
-import Jonon from './Jonon';
 import Chefs from './menu/Chefs';
 import Home from './menu/Home';
 import Navbar from './menu/Navbar';
@@ -11,7 +10,8 @@ const App = () => {
     return ( 
         <div>
             <Navbar/>
-                     <Routes>
+                     
+            <Navbar/>       <Routes>
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />

@@ -6,12 +6,13 @@ import { Navigation } from "swiper";
 import { Link, Route, Routes } from 'react-router-dom';
 import Shop from './Shop';
 import './Home.css'
+import Navbar from './Navbar';
 const Home = () => {
     return ( 
         <div className='for'>
-            <img src="https://jthemes.net/themes/html/fodige/assets/img/slider/s1.jpg" alt="" />
+            {/* <img src="https://jthemes.net/themes/html/fodige/assets/img/slider/s1.jpg" alt="" /> */}
             <div momy>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            <Swiper navigation={false} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide>
                     <div className='slide1'>
                         <h1>

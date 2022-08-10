@@ -5,10 +5,23 @@ import img from '../img.jpg';
 const Shop = () => {
     const [buy, setBuy] = useState('')
     const [click, setClick] = useState("block")
+    const [address, setAdress] = useState('')
+    const [phone, setPhone] = useState('')
+    const [size, setSize] = useState('')
+    const send = () => {
+        axios.post("https://62a1bfcbcc8c0118ef53af17.mockapi.io/api/v1/post", {
+            email: address,
+            phone: phone,
+            size: size
+        })
+
+    }
     const buyMenu = () =>{
         setClick("blockOn")
     }
     return ( 
+
+    
         <div className='wewe'>
              
         <div className={click}>
@@ -17,7 +30,7 @@ const Shop = () => {
                 <h1>
                     Choose size of food
                 </h1>
-                <select>
+                <select onChange={(e) => setSize(e.target.value)}>
                     <option>
                         Big
                     </option>
@@ -31,18 +44,18 @@ const Shop = () => {
                 <h1>
                     Write your adress
                 </h1>
-                <input type="text" placeholder='write you adress' />
+                <input type="text" placeholder='write you adress'  onChange={(e) => setAdress(e.target.value)} />
                 <h1>Write you phone number <p>We need this to contact you</p></h1>
-                <input type="text" placeholder='write your phone number' />
+                <input type="text" placeholder='write your phone number' onChange={(e) => setPhone(e.target.value)}/>
                 </div>
                         <button onClick={() => setClick("block")}>Close</button>
+                        <button onClick={send} >Send</button>
 
                     </div>
                 </div>
             <h1 className='menu-template'>Here is our food</h1>
             <div className='imgbrd'>
-                <h1>shop</h1>
-                <h2>Home / shop</h2>
+                
             </div>
             <div className='all'>
             <div className='lala'>

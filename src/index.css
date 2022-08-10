@@ -92,6 +92,7 @@ body {
   width: 205px;
   height: 56px;
   align-items: center;
+  background:none;
 }
 .menu{
   display: flex;
@@ -298,7 +299,9 @@ margin-left: 29px;
 .chef NavLink{
   color: black;
 }
-
+.for .mySwiper {
+  background-image: url(https://jthemes.net/themes/html/fodige/assets/img/slider/s1.jpg);
+}
 .imgbrd{
   background-image: url(./menu/brd1.jpg);
   background-size:cover;
@@ -521,4 +524,191 @@ h3{
 .xop h3{
   color: #fea400;
   font-size: 16px;
+  justify-content: space-around;
+}
+@media only screen and (max-width:400px){
+  .navbar{
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    border-bottom: 3px solid rgb(184, 133, 142);
+    position: fixed;
+    width: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 1s !important;
+    background-color: #131a33;
+  }
+  .menu .nav-link{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: white;
+    background: none;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    color: #131a33;
+    background: none;
+  }
+  .view{
+    margin-left: 10px;
+    padding: 6px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+    border: 1px solid rgba(34, 34, 34, 0.462);
+    box-shadow: 0 0 10px #222;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 17px !important;
+    display: -webkit-inline-box;
+  }
+  .slide1 h1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #131a33;
+    margin-left: 8px;
+  }
+  .slide1 p{
+    font-size: 15px;
+    color: #131a33;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+  .slide1{
+    text-align: center;
+    width: 400px;
+    margin-top: 170px;
+  }
+  .for img{
+    width: 400px;
+  }
+  .slide2 h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #131a33;
+   
+  }
+  .slide2 p{
+    font-size: 15px;
+    color: #131a33;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+  }
+.lala{
+  width: 180px;
+  color: #131a33;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+}
+.lala h1{
+  font-size: 17px ;
+  color: goldenrod;
+}
+.lala h4{
+  font-size: 10px;
+  width: 140px;
+  height: 25px;
+  color: grey;
+}
+.lala img{
+  height: 150px;
+  width: 140px;
+}
+.lala button{
+  margin-left: 20px;
+  padding: 6px 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: 0.5s;
+  border: 1px solid rgba(34, 34, 34, 0.462);
+  box-shadow: 0 0 10px #222;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.all{
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wewe .menu-template{
+  text-align: center;
+  margin: 30px;
+  font-size: 25px;
+  color:grey;
+}
+.imgbrd h1{
+  display: flex;
+  background: none;
+  color: #131a33;
+    font-size: 40px;
+    font-weight: 700;
+    width: 400px;
+    margin-top: 120px;
+    height: 100px;
+    position: absolute;
+}
+.imgbrd h2{
+  background: none;
+  font-size: 15px;
+  font-weight: 100;
+}.chefs{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.chef{
+  margin-right: 18px;
+}
+.chefs h1{
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+  transition: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.chefs h2{
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.chefs p{
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.chefs img{
+  width: 150px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 29px;
+  }
+  .mood{
+    color: #222;
+    padding: 0px 11px;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
