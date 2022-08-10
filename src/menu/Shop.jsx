@@ -8,8 +8,7 @@ const Shop = () => {
     const buyMenu = () =>{
         setClick("blockOn")
     }
-    }
-    return ( 
+    return( 
         <div className='wewe'>
              
         <div className={click}>
@@ -38,7 +37,6 @@ const Shop = () => {
                 </div>
                         <button onClick={() => setClick("block")}>Close</button>
 
-                        <button onClick={send}>Send</button>
 
                         <button>send</button>
                     </div>
@@ -125,5 +123,7 @@ const Shop = () => {
        
     </div>
      );
+    }
+    
  
 export default Shop;

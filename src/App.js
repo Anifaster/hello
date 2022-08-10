@@ -10,8 +10,7 @@ import Table from './menu/Table';
 const App = () => {
     return ( 
         <div>
-            <Navbar/>
-           <Jonon/>            <Routes>
+            <Navbar/>       <Routes>
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
