@@ -119,11 +119,11 @@ body {
 .slide1 h1{
   font-size: 70px;
   font-weight: 700;
-  color: #131a33;
+  color: #ffffff;
 }
 .slide1 p{
   font-size: 25px;
-  color: #131a33;
+  color: #ffffff;
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
@@ -151,7 +151,7 @@ body {
 .slide2 h1{
   font-size: 70px;
   font-weight: 700;
-  color: #131a33;
+  color: #ffffff;
  
 }
 .slide2{
@@ -161,7 +161,7 @@ body {
 }
 .slide2 p{
   font-size: 20px;
-  color: #131a33;
+  color: #ffffff;
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   margin-top: 30px;
@@ -299,8 +299,10 @@ margin-left: 29px;
 .chef NavLink{
   color: black;
 }
-.for .mySwiper {
+.for{
   background-image: url(https://jthemes.net/themes/html/fodige/assets/img/slider/s1.jpg);
+  background-size: cover;
+  height: 800px;
 }
 .imgbrd{
   background-image: url(./menu/brd1.jpg);

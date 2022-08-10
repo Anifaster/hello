@@ -11,11 +11,12 @@ const App = () => {
         <div>
             <Navbar/>
                      
-            <Navbar/>       <Routes>
+                  <Routes>
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
             </Routes>
+            
         </div>
      );
 }
