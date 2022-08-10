@@ -4,8 +4,6 @@ import Chefs from './Chefs';
 import Shop from './Shop';
 import Logo from './logo.png';
 import Home from './Home';
-// import Buy from '../Buy';
-// import Table from './Table';
 const Navbar = () => {
     return (
         <div>

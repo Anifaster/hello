@@ -5,9 +5,12 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import { Link, Route, Routes } from 'react-router-dom';
 import Shop from './Shop';
+import './Home.css'
 const Home = () => {
     return ( 
         <div className='for'>
+            <img src="https://jthemes.net/themes/html/fodige/assets/img/slider/s1.jpg" alt="" />
+            <div momy>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide>
                     <div className='slide1'>
@@ -39,6 +42,7 @@ const Home = () => {
             <Routes>
                 <Route path='/shop' element={<Shop/>} />
             </Routes>
+            </div>
         </div>
      );
 }
