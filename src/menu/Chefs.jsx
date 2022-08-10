@@ -15,9 +15,9 @@ const Chefs = () => {
                     <h1>Cassie Kolasks</h1>
                     <h2>Exclusive chef</h2>
                     <p>
-                        <NavLink to=''>"Burgers"</NavLink>
-                        <NavLink to="">"Pizza"</NavLink>
-                        <NavLink to=''>"Hot-Dog"</NavLink>
+                        <NavLink className="mood" to=''>"Burgers"</NavLink>
+                        <NavLink className="mood" to="">"Pizza"</NavLink>
+                        <NavLink className="mood" to=''>"Hot-Dog"</NavLink>
                     </p>
                 </div>
                 <div className="chef">
@@ -25,9 +25,9 @@ const Chefs = () => {
                     <h1>Tomson</h1>
                     <h2>Exclusive chef</h2>
                     <p>
-                        <NavLink to=''>"Burgers"</NavLink>
-                        <NavLink to="">"Pizza"</NavLink>
-                        <NavLink to=''>"Hot-Dog"</NavLink>
+                        <NavLink className="mood" to=''>"Burgers"</NavLink>
+                        <NavLink className="mood" to="">"Pizza"</NavLink>
+                        <NavLink className="mood" to=''>"Hot-Dog"</NavLink>
                     </p>
                 </div>
                 <div className="chef">
@@ -35,9 +35,9 @@ const Chefs = () => {
                     <h1>Alihon</h1>
                     <h2>Exclusive chef</h2>
                     <p>
-                        <NavLink to=''>"Burgers"</NavLink>
-                        <NavLink to="">"Pizza"</NavLink>
-                        <NavLink to=''>"Hot-Dog"</NavLink>
+                        <NavLink className="mood" to=''>"Burgers"</NavLink>
+                        <NavLink className="mood" to="">"Pizza"</NavLink>
+                        <NavLink className="mood" to=''>"Hot-Dog"</NavLink>
                     </p>
                 </div>
                 <div className="chef">
@@ -45,9 +45,9 @@ const Chefs = () => {
                     <h1>Islomhon</h1>
                     <h2>Exclusive chef</h2>
                     <p>
-                        <NavLink to=''>"Burgers"</NavLink>
-                        <NavLink to="">"Pizza"</NavLink>
-                        <NavLink to=''>"Hot-Dog"</NavLink>
+                        <NavLink className="mood" to=''>"Burgers"</NavLink>
+                        <NavLink className="mood" to="">"Pizza"</NavLink>
+                        <NavLink className="mood" to=''>"Hot-Dog"</NavLink>
                     </p>
                 </div>
                 <div className="chef">
@@ -55,9 +55,9 @@ const Chefs = () => {
                     <h1>rose</h1>
                     <h2>Exclusive chef</h2>
                     <p>
-                        <NavLink to=''>"Burgers"</NavLink>
-                        <NavLink to="">"Pizza"</NavLink>
-                        <NavLink to=''>"Hot-Dog"</NavLink>
+                        <NavLink className="mood" to=''>"Burgers"</NavLink>
+                        <NavLink className="mood" to="">"Pizza"</NavLink>
+                        <NavLink className="mood" to=''>"Hot-Dog"</NavLink>
                     </p>
                 </div>
                 <div className="chef">
@@ -65,9 +65,9 @@ const Chefs = () => {
                     <h1>jennie</h1>
                     <h2>Exclusive chef</h2>
                     <p>
-                        <NavLink to=''>"Burgers"</NavLink>
-                        <NavLink to="">"Pizza"</NavLink>
-                        <NavLink to=''>"Hot-Dog"</NavLink>
+                        <NavLink className="mood" to=''>"Burgers"</NavLink>
+                        <NavLink className="mood" to="">"Pizza"</NavLink>
+                        <NavLink className="mood" to=''>"Hot-Dog"</NavLink>
                     </p>
                 </div>
               
