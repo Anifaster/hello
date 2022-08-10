@@ -460,3 +460,28 @@ h3{
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.most-popular div h1{
+  font-size: 55px;
+  color: #121850;
+}
+.most-popular{
+  padding: 10px 175px;
+}
+.most-popular div p{
+  font-weight: 100;
+  color: grey;
+}
+.images .img1{
+  width: 300px;
+  height: 210px;
+  margin-left: 15px;
+}
+.images .img2{
+  width: 500px;
+  height: 300px;
+  margin-left: 15px;
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,12 +1,14 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 import { Link, NavLink, Route, Routes } from 'react-router-dom';
+import img from '../img.jpg';
 const Shop = () => {
     const [buy, setBuy] = useState('')
     const [click, setClick] = useState("block")
     const buyMenu = () =>{
         setClick("blockOn")
     }
-   
+    }
     return ( 
         <div className='wewe'>
              
@@ -35,6 +37,7 @@ const Shop = () => {
                 <input type="text" placeholder='write your phone number' />
                 </div>
                         <button onClick={() => setClick("block")}>Close</button>
+                        <button onClick={send}>Send</button>
                     </div>
                 </div>
             <h1 className='menu-template'>Here is our food</h1>

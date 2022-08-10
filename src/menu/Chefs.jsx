@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
 import Shop from './Shop';
+import img from '../img.jpg';
+import img2 from '../img2.jpg'; 
 const Chefs = () => {
     return ( 
         <div>
@@ -72,6 +74,24 @@ const Chefs = () => {
                 </div>
               
             </div>
+            <div className="most-popular">
+        <div>
+
+        <h1>Most Popular Food</h1>
+        <p>Welcome to Fodige Restaurant! After 5 years in business, we still <br/> serve the best Chinese food in the Sydney area</p>
+        </div>
+        <div className="images">
+        <div className="img1">
+        <img src={img} alt="" className='img1' />
+        </div>
+        <div className="img2">
+        <img src={img2} alt="" className='img2' />
+        </div>
+        <div className="img3">
+        <img src="https://jthemes.net/themes/html/fodige/assets/img/food/fv3.jpg" alt="" className='img3'/>
+        </div>
+        </div>
+       </div>
             <Routes>
                 <Route path='/shop' element={<Shop/>} />        
             </Routes>
