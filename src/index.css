@@ -3,7 +3,7 @@
    /* padding: 5px 20px;  */
    box-sizing: border-box;
   text-decoration: none;
-  background-color: rgb(255, 252, 252);
+  /* background-color: rgb(255, 252, 252); */
 } 
 body {
   margin: 0;
@@ -68,6 +68,7 @@ body {
   left: 0;
   right: 0;
   transition: 1s !important;
+  background-color: white;
 }
 .select{
   height: 50px;
@@ -467,27 +468,57 @@ h3{
   font-family: Arial, Helvetica, sans-serif;
 }
 .most-popular div h1{
-  font-size: 55px;
   color: #121850;
-}
-.most-popular{
-  padding: 10px 175px;
+  margin-left: 178px;
 }
 .most-popular div p{
   font-weight: 100;
   color: grey;
+  margin-left: 178px;
 }
 .images .img1{
   width: 300px;
   height: 210px;
-  margin-left: 15px;
 }
+.img1 h2{
+  float: inline-start;
+  font-family: "Playfair Display";
+}
+
 .images .img2{
-  width: 500px;
-  height: 300px;
-  margin-left: 15px;
+  width: 570px;
+  height: 430px;
 }
-.images{
+.images {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  /* margin-top: 70px; */
+  margin-left: 178px;
+}
+
+
+.most-popular{
+  padding: 0 3px;
+  float: inline-start;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+ span {
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.xop{
+  display: flex;
+}
+
+.xop h3{
+  color: #fea400;
+  font-size: 16px;
 }

@@ -11,12 +11,10 @@ const App = () => {
     return ( 
         <div>
             <Navbar/>
-           <Jonon/>            <Routes>
+                     <Routes>
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
-                <Route path='/buy' element={<Buy/>}/>
-                <Route path='/table' element={<Table/>}/>
             </Routes>
         </div>
      );

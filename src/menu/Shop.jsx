@@ -8,7 +8,6 @@ const Shop = () => {
     const buyMenu = () =>{
         setClick("blockOn")
     }
-    }
     return ( 
         <div className='wewe'>
              
@@ -38,9 +37,6 @@ const Shop = () => {
                 </div>
                         <button onClick={() => setClick("block")}>Close</button>
 
-                        <button onClick={send}>Send</button>
-
-                        <button>send</button>
                     </div>
                 </div>
             <h1 className='menu-template'>Here is our food</h1>
@@ -124,6 +120,9 @@ const Shop = () => {
         </div>
        
     </div>
+    
      );
+    }
+    
  
 export default Shop;
