@@ -240,7 +240,7 @@ body {
   justify-content: center;
   row-gap: 40px;
   padding: 120px 0px;
-  cursor: all-scroll;
+  cursor: context-menu;
 }
 
 .chefs img{
@@ -303,8 +303,8 @@ margin-left: 29px;
 }
 .imgbrd h2{
   background: none;
-  font-size: 22px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .buy h1{
@@ -385,3 +385,58 @@ h3{
 .dip{
   display: flex;
 }
+
+.block {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #00000050;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-100%);
+  transition: 0.4s ;
+}
+
+.blockOn{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #00000050;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0%);
+  transition: 0.4s ;
+  text-align: center  ;
+}
+.buy-setting h1{
+  font-size: 30px;
+  margin-top: 10px;
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+}
+.buy-setting select{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+  .buy-setting{
+    padding: 20px 30px;
+  }
+  .buy-setting input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .fix button{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
