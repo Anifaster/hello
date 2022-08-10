@@ -7,18 +7,18 @@ import Navbar from './menu/Navbar';
 import Shop from './menu/Shop';
 import Table from './menu/Table';
 const App = () => {
-    return ( 
+    return (
         <div>
-            <Navbar/>
-                     
-                  <Routes>
-                <Route path='/home' element={<Home/>}/>
+            <Navbar />
+
+            <Routes>
+                <Route path='/home' element={<Home />} />
                 <Route path='/chefs' element={<Chefs />} />
                 <Route path='/shop' element={<Shop />} />
             </Routes>
-            
+
         </div>
-     );
+    );
 }
- 
+
 export default App;

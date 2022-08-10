@@ -13,7 +13,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="menu">
-                    
+
                     {/* <select name="select" id="select" className='select'>
                         <option value="" className='option'>Home page </option>
                         <option value="">Home page 2</option>
@@ -26,8 +26,8 @@ const Navbar = () => {
                     {/* <NavLink to='/Table' className="table">Book a Table</NavLink> */}
                 </div>
             </div>
-            
-            
+
+
         </div>
     );
 }
