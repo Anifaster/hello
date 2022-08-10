@@ -1,8 +1,9 @@
-*{
-   margin: 0; 
-   box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
   text-decoration: none;
-} 
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,9 +15,10 @@ body {
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
+
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -24,6 +26,7 @@ body {
   text-align: left;
   background-color: #fff;
 }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -51,10 +54,11 @@ body {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-.navbar{
+
+.navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -68,7 +72,46 @@ body {
   transition: 1s !important;
   background-color: white;
 }
-.select{
+
+.map .h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.map {
+  border: 2px solid black;
+  width: 100%;
+  height: 100px;
+  padding: 0 100px;
+}
+
+.map h2 {
+  font-size: 12px;
+  color: grey;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.map button {
+  padding: 7px 35px;
+  text-align: right;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.select {
   height: 50px;
   border: none;
   font-size: 15px;
@@ -76,7 +119,8 @@ body {
   width: 170px;
   color: #131a33;
 }
-.select2{
+
+.select2 {
   height: 50px;
   border: none;
   font-size: 15px;
@@ -84,15 +128,17 @@ body {
   width: 159px;
   color: #131a33;
 }
-.logo{
+
+.logo {
   display: flex;
   justify-content: space-between;
   width: 205px;
   height: 56px;
   align-items: center;
-  background:none;
+  background: none;
 }
-.menu{
+
+.menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -102,12 +148,13 @@ body {
 }
 
 
-.menu .active{
+.menu .active {
   color: inherit;
   text-decoration: none;
   transition: 0.3s all ease-in-out;
 }
-.menu .nav-link{
+
+.menu .nav-link {
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-weight: 800;
@@ -115,18 +162,20 @@ body {
 }
 
 
-.slide1 h1{
+.slide1 h1 {
   font-size: 70px;
   font-weight: 700;
   color: #ffffff;
 }
-.slide1 p{
+
+.slide1 p {
   font-size: 25px;
   color: #ffffff;
   font-weight: 700;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
-.view{
+
+.view {
   margin-left: 20px;
   padding: 12px 60px;
   border-radius: 20px;
@@ -140,7 +189,8 @@ body {
   display: -webkit-inline-box;
   background: white;
 }
-.views{
+
+.views {
   margin-left: 420px;
   padding: 12px 60px;
   border-radius: 20px;
@@ -154,27 +204,31 @@ body {
   display: -webkit-inline-box;
   background: white;
 }
-.slide1{
+
+.slide1 {
   margin-top: 100px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   margin-left: 220px;
 }
-.view-div{
+
+.view-div {
   margin-top: 60px;
 }
 
-.slide2 h1{
+.slide2 h1 {
   font-size: 70px;
   font-weight: 700;
   color: #ffffff;
- 
+
 }
-.slide2{
+
+.slide2 {
   text-align: center;
   margin-top: 120px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
-.slide2 p{
+
+.slide2 p {
   font-size: 20px;
   color: #ffffff;
   font-weight: 700;
@@ -182,33 +236,36 @@ body {
   margin-top: 30px;
 }
 
-.lala{
+.lala {
   width: 298px;
   color: #131a33;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px 0px;
 }
-.lala h1{
-  font-size: 35px ;
+
+.lala h1 {
+  font-size: 35px;
   color: goldenrod;
 }
-.lala h4{
+
+.lala h4 {
   font-size: 15px;
   width: 290px;
   height: 45px;
   color: grey;
 }
-.lala img{
+
+.lala img {
   height: 220px;
   width: 280px;
 }
 
-.wewe{
+.wewe {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.lala button{
+.lala button {
   margin-left: 20px;
   padding: 12px 60px;
   border-radius: 20px;
@@ -221,26 +278,27 @@ body {
   margin-top: 20px;
 }
 
-.view:hover{
+.view:hover {
   background: black;
   color: white;
   transition: 0.5s;
 }
 
-.all{
+.all {
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
   justify-content: center;
 }
-.wewe .menu-template{
+
+.wewe .menu-template {
   text-align: center;
   margin: 30px;
   font-size: 50px;
-  color:grey;
+  color: grey;
 }
 
-.btn-menu{
+.btn-menu {
   font-size: 32px;
   color: #fea400;
   display: flex;
@@ -252,13 +310,13 @@ body {
   margin: 0 auto;
 }
 
-.btn-menu:hover{
+.btn-menu:hover {
   color: #222;
   font-size: 29px;
   transition: 0.3s;
 }
 
-.chefs{
+.chefs {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -269,13 +327,13 @@ body {
 
 }
 
-.chefs img{
+.chefs img {
   border-radius: 45px;
   height: auto;
   width: auto;
 }
 
-.chefs h1{
+.chefs h1 {
   font-family: Arial, Helvetica, sans-serif;
   width: auto;
   transition: 0.7s;
@@ -283,14 +341,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-.chefs h2{
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.7s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.chefs p{
+
+.chefs h2 {
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.7s;
   display: flex;
@@ -298,28 +350,38 @@ body {
   justify-content: center;
 }
 
-.chef{
+.chefs p {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chef {
   border-radius: 14px;
 }
 
-.chefs img{
-display: flex;
-align-items: center;
-justify-content: center;
-margin-left: 29px;
+.chefs img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 29px;
 }
 
-.chef NavLink{
+.chef NavLink {
   color: black;
 }
-.for{
+
+.for {
   background-image: url(https://jthemes.net/themes/html/fodige/assets/img/slider/s1.jpg);
   background-size: cover;
   height: 800px;
 }
-.imgbrd{
+
+.imgbrd {
   background-image: url(./menu/brd1.jpg);
-  background-size:cover;
+  background-size: cover;
   background-position: center center;
   line-height: 1.965;
   border-bottom: 1px solid rgb(184, 133, 142);
@@ -327,32 +389,33 @@ margin-left: 29px;
   padding: 5px 130px;
 }
 
-.imgbrd h1{
+.imgbrd h1 {
   background: none;
   color: #131a33;
-    font-size: 90px;
-    font-weight: 700;
-    padding-bottom: 25px;
+  font-size: 90px;
+  font-weight: 700;
+  padding-bottom: 25px;
 }
-.imgbrd h2{
+
+.imgbrd h2 {
   background: none;
   font-size: 25px;
   font-weight: 100;
 }
 
-.buy h1{
+.buy h1 {
   color: rebeccapurple;
 }
 
-.table{
+.table {
   color: inherit;
-    text-decoration: none;
-    transition: 0.3s all ease-in-out;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
 }
 
-.table-img{
+.table-img {
   background-image: url(./menu/brd1.jpg);
-  background-size:cover;
+  background-size: cover;
   background-position: center center;
   line-height: 1.965;
   border-bottom: 1px solid rgb(184, 133, 142);
@@ -360,25 +423,26 @@ margin-left: 29px;
   margin-top: 50px;
 }
 
-.dad-table h1{
+.dad-table h1 {
   background: none;
-    padding-bottom: 25px;
-    margin: 0;
-    font-family: "Playfair Display";
-    color: #131a33;
-    font-size: 120px;
-    font-weight: 700;
-    padding-bottom: 25px;
-    margin-left: 180px;
+  padding-bottom: 25px;
+  margin: 0;
+  font-family: "Playfair Display";
+  color: #131a33;
+  font-size: 120px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  margin-left: 180px;
 }
-.dad-table h2{
+
+.dad-table h2 {
   background: none;
   font-size: 20px;
   margin-left: 180px;
   margin-bottom: 50px;
 }
 
-.free{
+.free {
   height: 900px;
   width: 899px;
   display: flex;
@@ -389,33 +453,33 @@ margin-left: 29px;
   box-shadow: 0 0 10px #22222220;
 }
 
-.mom h4{
+.mom h4 {
   color: #121850;
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    margin: 0;
-    font-family: "Playfair Display";
-    margin-right: 220px;
-    margin-bottom: 630px;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Playfair Display";
+  margin-right: 220px;
+  margin-bottom: 630px;
 }
 
-.dip input{
+.dip input {
   border: none;
   width: 80%;
   color: #121850;
   flex-wrap: wrap;
 }
 
-h3{
+h3 {
   color: #131a33;
   font-size: 30px;
   font-weight: 700;
   font-family: "Playfair Display";
 }
 
-.dip{
+.dip {
   display: flex;
 }
 
@@ -430,10 +494,10 @@ h3{
   align-items: center;
   justify-content: center;
   transform: translateY(-100%);
-  transition: 0.4s ;
+  transition: 0.4s;
 }
 
-.blockOn{
+.blockOn {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -444,69 +508,83 @@ h3{
   align-items: center;
   justify-content: center;
   transform: translateY(0%);
-  transition: 0.4s ;
-  text-align: center  ;
+  transition: 0.4s;
+  text-align: center;
 }
-.buy-setting h1{
+
+.buy-setting h1 {
   font-size: 30px;
   margin-top: 10px;
   color: grey;
   text-align: center;
   margin-top: 20px;
 }
-.buy-setting select{
+
+.buy-setting select {
   width: 100px;
   height: 30px;
   border-radius: 10px;
 }
-  .buy-setting{
-    padding: 20px 30px;
-  }
-  .buy-setting input{
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-  }
-  .fix button{
-    padding: 20px 60px;
-    height: 30px;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: space-between;
-    display: inline-flex;
-    margin: 12px 16px;
-    background-color: black;
-    color: white;
-  }
-.mood{
+
+.buy-setting {
+  padding: 20px 30px;
+  width: 500px;
+  background-color: #131a33;
+  border-radius: 10px;
+}
+
+.buy-setting input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.fix button {
+  padding: 20px 60px;
+  height: 30px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  display: inline-flex;
+  margin: 12px 16px;
+  background-color: black;
+  color: white;
+}
+
+.mood {
   color: #222;
   padding: 0px 11px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.most-popular div h1{
+
+.most-popular div h1 {
   color: #121850;
   margin-left: 178px;
 }
-.most-popular div p{
+
+.most-popular div p {
   font-weight: 100;
   color: grey;
   margin-left: 178px;
 }
-.images .img1{
+
+.images .img1 {
   width: 300px;
   height: 210px;
 }
-.img1 h2{
+
+.img1 h2 {
   float: inline-start;
   font-family: "Playfair Display";
 }
 
-.images .img2{
+.images .img2 {
   width: 570px;
   height: 430px;
 }
+
 .images {
   display: flex;
   justify-content: space-evenly;
@@ -518,37 +596,39 @@ h3{
 }
 
 
-.most-popular{
+.most-popular {
   padding: 0 3px;
   float: inline-start;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
- span {
+
+span {
   font-size: 16px;
   margin-right: 15px;
 }
 
-.xop{
+.xop {
   display: flex;
 }
 
-.xop h3{
+.xop h3 {
   color: #fea400;
   font-size: 16px;
   justify-content: space-around;
 }
-@media only screen and (max-width:400px){
-  .navbar{
+
+@media only screen and (max-width:400px) {
+  .navbar {
     display: flex;
-    position: fixed;
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
     border-bottom: 3px solid rgb(184, 133, 142);
-    position: fixed;
     width: 400px;
     top: 0;
     left: 0;
@@ -556,14 +636,16 @@ h3{
     transition: 1s !important;
     background-color: #131a33;
   }
-  .menu .nav-link{
-    font-size: 15px;
+
+  .menu .nav-link {
+    font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: 800;
     color: white;
     background: none;
   }
-  .menu{
+
+  .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -571,7 +653,8 @@ h3{
     color: #131a33;
     background: none;
   }
-  .view{
+
+  .view {
     margin-left: 10px;
     padding: 6px 30px;
     border-radius: 20px;
@@ -584,142 +667,166 @@ h3{
     margin-top: 17px !important;
     display: -webkit-inline-box;
   }
-  .slide1 h1{
+
+  .slide1 h1 {
     margin-top: 30px;
     font-size: 35px;
     font-weight: 700;
-    color: #131a33;
+    color: wite;
     margin-left: 8px;
   }
-  .slide1 p{
+
+  .slide1 p {
     font-size: 15px;
-    color: #131a33;
+    color: white;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   }
-  .slide1{
+
+  .slide1 {
     text-align: center;
     width: 400px;
     margin-top: 170px;
   }
-  .for img{
+
+  .for img {
     width: 400px;
   }
-  .slide2 h1{
+
+  .slide2 h1 {
     font-size: 35px;
     font-weight: 700;
-    color: #131a33;
-   
+    color: white;
+
   }
-  .slide2 p{
+
+  .slide2 p {
     font-size: 15px;
-    color: #131a33;
+    color: wite;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     margin-top: 30px;
   }
-.lala{
-  width: 180px;
-  color: #131a33;
-  border-radius: 8px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 15px;
-}
-.lala h1{
-  font-size: 17px ;
-  color: goldenrod;
-}
-.lala h4{
-  font-size: 10px;
-  width: 140px;
-  height: 25px;
-  color: grey;
-}
-.lala img{
-  height: 150px;
-  width: 140px;
-}
-.lala button{
-  margin-left: 20px;
-  padding: 6px 30px;
-  border-radius: 20px;
-  font-size: 14px;
-  transition: 0.5s;
-  border: 1px solid rgba(34, 34, 34, 0.462);
-  box-shadow: 0 0 10px #222;
-  text-transform: capitalize;
-  font-weight: 700;
-  margin-top: 20px;
-}
-.all{
-  width: 400px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.wewe .menu-template{
-  text-align: center;
-  margin: 30px;
-  font-size: 25px;
-  color:grey;
-}
-.imgbrd h1{
-  display: flex;
-  background: none;
-  color: #131a33;
+
+  .lala {
+    width: 180px;
+    color: #131a33;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+  }
+
+  .lala h1 {
+    font-size: 17px;
+    color: goldenrod;
+  }
+
+  .lala h4 {
+    font-size: 10px;
+    width: 140px;
+    height: 25px;
+    color: grey;
+  }
+
+  .lala img {
+    height: 150px;
+    width: 140px;
+  }
+
+  .lala button {
+    margin-left: 20px;
+    padding: 6px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.5s;
+    border: 1px solid rgba(34, 34, 34, 0.462);
+    box-shadow: 0 0 10px #222;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .all {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .wewe .menu-template {
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+    color: grey;
+  }
+
+  .imgbrd h1 {
+    display: flex;
+    background: none;
+    color: #131a33;
     font-size: 40px;
     font-weight: 700;
     width: 400px;
     margin-top: 120px;
     height: 100px;
     position: absolute;
-}
-.imgbrd h2{
-  background: none;
-  font-size: 15px;
-  font-weight: 100;
-}.chefs{
-  width: 400px;
-  display: flex;
-  justify-content: space-between;
-}
-.chef{
-  margin-right: 18px;
-}
-.chefs h1{
-  font-family: Arial, Helvetica, sans-serif;
-  width: auto;
-  transition: 0.7s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-}
-.chefs h2{
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.7s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-}
-.chefs p{
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.7s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-}
-.chefs img{
-  width: 150px;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 29px;
+    display: none;
   }
-  .mood{
+
+  .imgbrd h2 {
+    background: none;
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  .chefs {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .chef {
+    margin-right: 18px;
+  }
+
+  .chefs h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    transition: 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .chefs h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .chefs p {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .chefs img {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29px;
+  }
+
+  .mood {
     color: #222;
     padding: 0px 11px;
     font-size: 9px;
@@ -727,17 +834,18 @@ h3{
   }
 }
 
-.div{
-    top: 0;
-    left: 0;
-    content: ""; 
-    height: 800px;
-    width: 370px;
-    background-color: #f8bf64;;
-    background-image: url("https://jthemes.net/themes/html/fodige/assets/img/about/abi.png");
-  }
+.div {
+  top: 0;
+  left: 0;
+  content: "";
+  height: 800px;
+  width: 370px;
+  background-color: #f8bf64;
+  ;
+  background-image: url("https://jthemes.net/themes/html/fodige/assets/img/about/abi.png");
+}
 
-.every .happy{
+.every .happy {
   background-image: url("https://jthemes.net/themes/html/fodige/assets/img/about/ab1.jpg");
   height: 422px;
   width: 529px;
@@ -747,9 +855,18 @@ h3{
   border-top-left-radius: 100px;
 }
 
-.div .nana{
+.div .nana {
   background-image: url("https://jthemes.net/themes/html/fodige/assets/img/about/ab2.png");
   height: 953;
   width: 270px;
   align-items: center;
+}
+
+.map .h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 15px;
+  margin: 0 auto;
 }

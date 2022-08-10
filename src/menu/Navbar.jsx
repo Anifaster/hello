@@ -4,6 +4,7 @@ import Chefs from './Chefs';
 import Shop from './Shop';
 import Logo from './logo.png';
 import Home from './Home';
+import Order from './Order';
 const Navbar = () => {
     return (
         <div>
@@ -13,19 +14,13 @@ const Navbar = () => {
                 </div>
 
                 <div className="menu">
-
-                    {/* <select name="select" id="select" className='select'>
-                        <option value="" className='option'>Home page </option>
-                        <option value="">Home page 2</option>
-                        <option value="">Home page 3</option>
-                        <option value="">Home page 4</option>
-                    </select> */}
                     <NavLink to='/Home' className="nav-link">Home</NavLink>
                     <NavLink to="/Chefs" className="nav-link">Chefs</NavLink>
                     <NavLink to='/Shop' className="nav-link">Shop</NavLink>
-                    {/* <NavLink to='/Table' className="table">Book a Table</NavLink> */}
+                    <NavLink to='/Order' className='nav-link'>My orders</NavLink>
                 </div>
             </div>
+
 
 
         </div>
